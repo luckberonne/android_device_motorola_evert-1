@@ -24,6 +24,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Device
 $(call inherit-product, device/motorola/evert/device.mk)
 
+TARGET_GAPPS_ARCH := arm64
+
 # A/B updater
 AB_OTA_UPDATER := true
 
