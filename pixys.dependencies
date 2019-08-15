@@ -1,0 +1,31 @@
+[
+  {
+    #"remote":      "github",
+    #"repository":  "TeamDeluxe/bootable_recovery",
+    #"target_path": "bootable/recovery",
+    #"branch":      "pie"
+  },
+  {
+    "remote":      "github",
+    "repository":  "TeamDeluxe/android_kernel_motorola_msm8998",
+    "target_path": "kernel/motorola/msm8998",
+    "branch":      "p9x-caf"
+  },
+  {
+    "remote":      "github",
+    "repository":  "android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch":      "lineage-16.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "LineageOS/android_external_bson",
+    "target_path": "external/bson",
+    "branch":      "lineage-16.0"
+  },
+ {
+    #"repository": "TeamWin/external_magisk-prebuilt",
+    #"target_path": "external/magisk-prebuilt",
+    #"branch": "master"
+ }
+]
