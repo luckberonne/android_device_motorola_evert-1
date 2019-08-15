@@ -22,6 +22,12 @@ DEVICE_PATH := device/motorola/evert
 # Assertions
 TARGET_OTA_ASSERT_DEVICE := evert
 
+# TWRP Support
+include $(DEVICE_PATH)/twrp.mk
+
+TARGET_RECOVERY_FSTAB := device/motorola/sdm660-common/rootdir/etc/fstab.qcom
+
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
