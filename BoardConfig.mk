@@ -25,7 +25,7 @@ TARGET_OTA_ASSERT_DEVICE := evert
 # TWRP Support
 include $(DEVICE_PATH)/twrp.mk
 
-TARGET_RECOVERY_FSTAB := device/motorola/sdm660-common/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := device/motorola/sdm660-common/rootdir/etc/recovery.fstab
 
 
 # Bluetooth
