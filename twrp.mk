@@ -11,7 +11,7 @@ BOARD_HAS_NO_REAL_SDCARD := true
 TW_MAX_BRIGHTNESS := 80
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_EXTRA_LANGUAGES := true
-#TW_NO_SCREEN_BLANK := true
+# TW_NO_SCREEN_BLANK := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_EXCLUDE_TWRPAPP := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
@@ -37,6 +37,7 @@ TW_INCLUDE_CRYPTO := false
 # Debug flags
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+
 
 # A/B partition device flags
 #TARGET_NO_KERNEL := false

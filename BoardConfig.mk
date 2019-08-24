@@ -23,9 +23,9 @@ DEVICE_PATH := device/motorola/evert
 TARGET_OTA_ASSERT_DEVICE := evert
 
 # TWRP Support
-include $(DEVICE_PATH)/twrp.mk
+#include $(DEVICE_PATH)/twrp.mk
 
-TARGET_RECOVERY_FSTAB := device/motorola/evert/rootdir/etc/recovery.fstab
+#TARGET_RECOVERY_FSTAB := device/motorola/evert/rootdir/etc/recovery.fstab
 
 
 # Bluetooth
