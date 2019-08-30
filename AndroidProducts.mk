@@ -18,4 +18,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_evert.mk \
     $(LOCAL_DIR)/pixys_evert.mk \
     $(LOCAL_DIR)/bootleg_evert.mk \
-    $(LOCAL_DIR)/cos_evert.mk
+    $(LOCAL_DIR)/cos_evert.mk \
+    $(LOCAL_DIR)/aosp_evert.mk 
+
