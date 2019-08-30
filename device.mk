@@ -31,6 +31,11 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := 560dpi
 PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
 
+# add apns conf
+PRODUCT_COPY_FILES += \
+    device/motorola/evert/apns-conf.xml:system/etc/apns-conf.xml \
+    device/motorola/evert/new_apns-conf.xml:system/etc/new_apns-conf.xml
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
