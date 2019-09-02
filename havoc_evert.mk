@@ -72,7 +72,7 @@ export export HAVOC_BUILD_TYPE=Official
 
 #device maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
- 	ro.havoc.maintainer=fJSanti
+ 	ro.havoc.maintainer=LuckBeronne
 
 # Device identifiers
 PRODUCT_DEVICE := evert
